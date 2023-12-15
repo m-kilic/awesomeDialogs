@@ -1,4 +1,5 @@
 name: awesome_dialog
+publish_to: none
 description: >-
   Flutter package to show beautiful dialogs(INFO,QUESTION,WARNING,SUCCESS,ERROR) with animations as simply as possible.
 version: 3.0.2
@@ -10,7 +11,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  rive: ^0.9.1
+  rive:
+    git:
+      url: https://github.com/m-kilic/rive-flutter.git
 
 dev_dependencies:
   flutter_test:
